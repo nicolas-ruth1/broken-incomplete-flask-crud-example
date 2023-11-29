@@ -12,10 +12,10 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 COPY . /app
 
 # Set environment variables
-ENV MYSQL_USER jon
+ENV MYSQL_USER nico
 ENV MYSQL_PASSWORD secret
 ENV MYSQL_DB student
-ENV MYSQL_HOST 35.246.57.140
+ENV MYSQL_HOST 34.105.135.31
 ENV MYSQL_PORT 3306
 ENV MYSQLCLIENT_CFLAGS "-I/usr/include/mariadb"
 ENV MYSQLCLIENT_LDFLAGS "-L/usr/lib/"
